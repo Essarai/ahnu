@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(188, 171, 181);
+}
+
+.container {
+    margin-top: -65px;
+}
+
+.col-xs-6 {
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px;
+}

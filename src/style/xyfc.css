@@ -1,0 +1,72 @@
+a , a:hover, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a img {
+    height: 18px;
+    width: auto;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: 150px;
+}
+
+.carousel {
+    height: 150px;
+    overflow: hidden;
+}
+
+.title {
+    position: relative;
+}
+
+.color-block {
+    display: inline-block;
+    height: 15px;
+    width: 25px;
+    background-color: rgb(0, 162, 255);
+    margin-top: 2px;
+}
+
+.color-line {
+    position: absolute;
+    top: 11px;
+    z-index: 1;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(0, 162, 255);
+}
+
+.title span {
+    position: absolute;
+    z-index: 3;
+    background-color: #ffffff;
+    padding: 0 8px 0 5px;
+    font-weight: 500;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.college-block {
+    /* box-shadow: 0px 0px 20px rgba(172, 172, 172, 0.7); */
+    margin: 20px 0;
+}
+
+main #first {
+    margin-top: 10px;
+}
+
+a span {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.col-xs-6 {
+    padding: 5px 15px;
+}

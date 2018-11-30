@@ -1,0 +1,122 @@
+html, body {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+}
+
+a , a:hover, a:active{
+    height: 100%;
+    color: snow;
+    text-decoration: none;
+}
+
+.banner-box {
+    height: 275px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner {
+    width: 469px;
+    position: absolute;
+    left: 50%;
+    margin-left: -234px;
+}
+
+.banner img {
+    height: 275px;
+    width: 469px;
+}
+
+header {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+header img {
+    height: 55px;
+    width: auto;
+}
+
+.container {
+    margin-top: -45px;
+}
+
+.container:last-child {
+    margin-bottom: 20px;
+}
+
+#green, #red, #orange, #purple, #blue, #yellow, #col-7, #col-8, #col-9, #col-10{
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 15px rgba(44, 44, 44, 0.7);
+    padding: 12px 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#green img, #red img, #orange img, #purple img, #blue img, #yellow img, #col-7 img, #col-8 img, #col-9 img, #col-10 img {
+    height: 60px;
+}
+
+#green {
+    background-color: rgb(0, 224, 198);
+}
+
+#red {
+    background-color: rgb(248, 100, 114);
+}
+
+#orange {
+    background-color: rgb(248, 190, 57);
+}
+
+#purple {
+    background-color: rgb(179, 75, 130);
+}
+
+#blue {
+    background-color: #66ccff;
+}
+
+#yellow {
+    background-color: rgb(255, 255, 136);
+    color: rgb(44, 44, 44);
+}
+#col-7 { 
+    background-color: #346882;
+}
+
+#col-8 {
+    background-color:#9eacc788;
+}
+
+#col-9 {
+    background-color:#9c4555;
+}
+
+#col-10{
+    background-color:#459c68;
+}
+
+footer{
+    margin: auto,0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FCFCFC;
+    font-size: 10px;
+}
