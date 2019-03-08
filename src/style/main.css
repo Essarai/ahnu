@@ -2,7 +2,7 @@ html, body {
     display: block;
     height: 100%;
     width: 100%;
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
 }
@@ -57,18 +57,18 @@ header img {
 }
 
 #green, #red, #orange, #purple, #blue, #yellow, #col-7, #col-8, #col-9, #col-10{
-    width: 100%;
+    width: 107%;
     height: 100%;
     border: 1px;
     border-radius: 10px;
     box-shadow: 3px 4px 15px rgba(44, 44, 44, 0.7);
-    padding: 12px 4px;
-    text-align: center;
+    padding: 18px 2px;
+    text-align: left;
     vertical-align: middle;
 }
 
 #green img, #red img, #orange img, #purple img, #blue img, #yellow img, #col-7 img, #col-8 img, #col-9 img, #col-10 img {
-    height: 60px;
+    height: 51px;
 }
 
 #green {
@@ -96,7 +96,7 @@ header img {
     color: rgb(44, 44, 44);
 }
 #col-7 { 
-    background-color: #346882;
+    background-color: #87df23;
 }
 
 #col-8 {
@@ -108,7 +108,7 @@ header img {
 }
 
 #col-10{
-    background-color:#459c68;
+    background-color:#28d46d;
 }
 
 footer{
